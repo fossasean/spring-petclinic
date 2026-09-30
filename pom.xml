@@ -91,6 +91,8 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
+      <!-- pinned by fossabot: version was supplied by a BOM or parent, which no longer moves it -->
+      <version>42.7.12</version>
       <scope>runtime</scope>
     </dependency>
     <dependency>
