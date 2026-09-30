@@ -45,7 +45,8 @@ dependencies {
   runtimeOnly 'com.github.ben-manes.caffeine:caffeine'
   runtimeOnly 'com.h2database:h2'
   runtimeOnly 'com.mysql:mysql-connector-j'
-  runtimeOnly 'org.postgresql:postgresql'
+  // pinned by fossabot: version was supplied by a BOM or plugin, which no longer moves it
+  runtimeOnly 'org.postgresql:postgresql:42.7.12'
   developmentOnly 'org.springframework.boot:spring-boot-devtools'
   testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
   testImplementation 'org.springframework.boot:spring-boot-starter-restclient-test'
