@@ -44,7 +44,8 @@ dependencies {
   runtimeOnly "org.webjars.npm:font-awesome:${webjarsFontawesomeVersion}"
   runtimeOnly 'com.github.ben-manes.caffeine:caffeine'
   runtimeOnly 'com.h2database:h2'
-  runtimeOnly 'com.mysql:mysql-connector-j'
+  // pinned by fossabot: version was supplied by a BOM or plugin, which no longer moves it
+  runtimeOnly 'com.mysql:mysql-connector-j:9.5.0'
   runtimeOnly 'org.postgresql:postgresql'
   developmentOnly 'org.springframework.boot:spring-boot-devtools'
   testImplementation 'org.springframework.boot:spring-boot-starter-data-jpa-test'
